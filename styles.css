@@ -1,3 +1,9 @@
+.header{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #ebebeb;
+}
+
 .header ul{
 	list-style-type: none;
 	margin: 0;
@@ -27,12 +33,6 @@
 	margin-right: 0px;
 	margin-left: 0px;
 
-	/*
-	background-image: url("img/magnifying-glass-blue.png");
-	background-position: right;
-	background-size: contain;
-	background-repeat: no-repeat;
-	*/
 	padding-left: 40px;
 	font-size:18px;
 
@@ -80,3 +80,41 @@
 	margin-right: 20px;
 }
 
+.menu{
+	float:left;
+
+}
+
+#menu-first{
+	margin-left:160px;
+	border-bottom-color: #4486fa;
+	border-bottom-style: solid;
+}
+
+#menu-first a{
+	color:  #4486fa;
+}
+
+#right-offset-first{
+	margin-left: 130px;
+}
+
+.right-offset li{
+	margin-top:5px;
+}
+
+.menu img{
+	vertical-align: middle;
+	margin-right:3px;
+}
+
+.lower a{
+	text-decoration: none;
+	font-family: arial;
+	font-size: 14px;
+	color: #5f6368;
+}
+
+.lower{
+	margin-bottom: 3px;
+}
