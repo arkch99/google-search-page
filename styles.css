@@ -298,3 +298,33 @@ table th{
 .question-info li{
 	padding-bottom: 0%;
 }
+
+.ask-question{
+	width: 670px;
+	border-style: solid;
+	border-radius: 15px;
+	border-width: 1px;
+	border-color: #ebebeb;
+}
+
+.ask-question li{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.q-entry{
+	margin-left:15px;
+}
+
+.q-notes{
+	margin-left:66px;
+	font-size: 12px;
+}
+
+.q-notes::first-line{
+	color: #70757A;
+}
+
+.q-notes a:hover{
+	text-decoration: underline;
+}
