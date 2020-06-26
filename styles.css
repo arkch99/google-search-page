@@ -3,9 +3,15 @@
 }
 
 .header{
+
+	width: auto;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	border-color: #ebebeb;
+}
+
+.header-upper li{
+	position: static;
 }
 
 .header ul{
@@ -65,6 +71,7 @@
 }
 
 .right-align button{
+	position: sticky;
 	margin-right: 25px;
 	background-color: #4486fa;
 	border-width: 0;
@@ -111,20 +118,25 @@
 	margin-right:3px;
 }
 
-.lower a{
+.header-lower a{
 	text-decoration: none;
 	font-family: arial;
 	font-size: 14px;
 	color: #5f6368;
 }
 
-.lower{
+.header-lower{
 	margin-bottom: 3px;
+}
+
+.n-res{
+	font-size: 15px;
+	color: rgba(0,0,0,.54);
 }
 
 .center-column{
 	margin-left: 160px;
-	max-width: 40%;
+	width: 660px;
 }
 
 .center-column ul{
@@ -190,6 +202,14 @@
 
 #stubborn-foot{
 	padding-top: 7px;
+}
+
+.also-ask{
+	width:660px;
+}
+
+.section-head{
+	font-size: 20px;
 }
 
 table{
@@ -451,8 +471,8 @@ body{
 
 .footer{
 	position: absolute;
-	left:0;
-	right: 0;
+	left: 0px;
+	right: 0px;
 	background-color: #f2f2f2;
 	font-size: 15px;
 	color: rgba(0,0,0,.54);
