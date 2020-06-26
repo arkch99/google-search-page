@@ -222,7 +222,7 @@ table th{
 	border-radius: 10px 10px 0px 0px;
 }
 
-table img{
+.chevron{
 	float:right;
 	vertical-align: middle;
 }
@@ -232,9 +232,8 @@ table th{
 	font-weight: 500;
 }
 
-#fdb{
+.fdb{
 	float: right;
-	margin-right:50px;
 	color: #707591;
 	font-style: italic;
 	font-size: 12px;
@@ -248,7 +247,7 @@ table th{
 	width: 700px;
 }
 
-.question-box{
+.question-box, .also-search-thumb-list li{
 	display: inline-block;
 	width:220px;
 	height:200px;
@@ -328,3 +327,120 @@ table th{
 .q-notes a:hover{
 	text-decoration: underline;
 }
+
+.also-search{
+	width:690px;
+}
+
+.also-search-items{
+	border-color: #ebebeb;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.also-search-items li
+{
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+.also-search-thumb-list li{
+	padding:0px;
+	width:105px;
+	height:150px;
+}
+
+.also-search-thumb-list img{
+	width:100%;
+	height:100px;
+	border-radius: 15px;
+}
+
+.also-search-thumb-list li:hover > .thumb-title{
+	text-decoration: underline;
+}
+
+.thumb-title{
+	padding-top: 10px;
+	padding-left: 5px;
+	width:100px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.button-item{
+	width: 50%;
+	margin: 0 auto;
+	padding-left: 100px;
+}
+
+.button-item button{
+	width: 250px;
+	height: 30px;
+	font-size: 16px;
+	color: blue;
+	background-color: white;
+	border-style: solid;
+	border-color: #ebebeb;
+	border-radius: 15px;
+	border-width: 1px;
+}
+
+.button-item button:hover{
+	background-color: #ebebeb;
+}
+
+#wordpress-icon
+{
+	height:50px;
+	padding-right: 15px;
+	vertical-align: middle;
+
+}
+
+.also-search-last{
+	border-top-color: #ebebeb;
+	border-width: 1px 0px 0px 0px;
+	border-style: solid;
+}
+
+.rel-search ul{
+	list-style-image: url(img/mag-glass-bullet.PNG);
+	padding-left: 25px;
+}
+
+.rel-search ul > li{
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.rel-search a:hover{
+	text-decoration: underline;
+}
+
+.long-logo{
+	width:640px;
+	margin-left: 210px;
+
+}
+
+.long-logo li{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.long-logo a:hover{
+	text-decoration: underline;
+}
+
+#g{
+	padding-bottom:20px;
+
+}
+
+#g-next{
+	padding-left:40px; /*float breaks the hover-underlining for some reason*/
+}
+
