@@ -239,7 +239,7 @@ table th{
 	font-size: 12px;
 }
 
-#fdb:hover{
+.fdb:hover{
 	text-decoration: underline;
 }
 
@@ -426,7 +426,7 @@ table th{
 
 }
 
-.long-logo li{
+.long-logo li{  /*attempting to combine footer-lower's style with this breaks it*/
 	display:inline-block;
 	vertical-align: middle;
 }
@@ -444,3 +444,47 @@ table th{
 	padding-left:40px; /*float breaks the hover-underlining for some reason*/
 }
 
+body{
+	padding:0px;
+	margin:0px;
+}
+
+.footer{
+	position: absolute;
+	left:0;
+	right: 0;
+	background-color: #f2f2f2;
+	font-size: 15px;
+	color: rgba(0,0,0,.54);
+}
+
+.footer-upper{
+	padding-top:15px;
+	padding-bottom: 20px;
+	padding-left:150px;
+	border-bottom-style: solid;
+	border-bottom-color: #e4e4e4;
+	border-width: 1px;
+
+}
+
+.footer-lower{
+	padding-left: 110px;
+}
+
+.footer-lower li{
+	display:inline-block;
+	vertical-align: middle;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	margin-bottom: 0px;
+}
+
+.footer a{
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+}
+
+.footer a:hover{
+	color: black;
+}
