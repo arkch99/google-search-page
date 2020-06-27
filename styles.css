@@ -3,15 +3,10 @@
 }
 
 .header{
-
 	width: auto;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	border-color: #ebebeb;
-}
-
-.header-upper li{
-	position: static;
 }
 
 .header ul{
@@ -183,6 +178,7 @@
 	display: inline-block;
 	vertical-align: top;
 	height: 270px;
+	width: 210px;
 	border-style: solid;
 	padding-top:0px;
 	border-radius: 15px;
@@ -192,12 +188,12 @@
 
 .video-thumbnails img{
 	border-radius: 10px 10px 0px 0px;
+	width:100%;
 
 }
 
 .description{
 	padding-left:10px;
-
 }
 
 #stubborn-foot{
