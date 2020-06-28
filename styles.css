@@ -37,7 +37,7 @@
 	margin-right: 0px;
 	margin-left: 0px;
 
-	padding-left: 40px;
+	padding-left: 20px;
 	font-size:18px;
 
 }
@@ -154,13 +154,14 @@
 
 .center-column a{
 	text-decoration: none;
+	color: #1a0dab;
 }
 
 .center-column a:hover > .result-link{
 	text-decoration: underline;
 }
 
-.center-column li{
+.results li{
 	padding: 20px 0px 20px 0px;
 }
 
@@ -174,7 +175,7 @@
 	text-decoration: underline;
 }
 
-.video-thumbnails li{
+.video-thumbnails{
 	display: inline-block;
 	vertical-align: top;
 	height: 270px;
@@ -192,12 +193,41 @@
 
 }
 
+/*
 .description{
+	position: relative;
 	padding-left:10px;
 }
+*/
 
-#stubborn-foot{
-	padding-top: 7px;
+.vid-link{
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+.vid-creator, .vid-site{
+	padding-left:10px;
+	padding-right:5px;
+	font-size: 14px;
+	color: #808080;
+}
+
+.v-site-name{
+	color: black;
+}
+
+.vid-link{
+	padding-top: 10px;
+	height: 40px;
+}
+
+.vid-creator{
+	/*position: absolute;*/
+	margin-top: 30px;
+}
+
+.vid-site{
+	padding-top: 15px;
 }
 
 .also-ask{
@@ -213,6 +243,7 @@ table{
 	border-spacing: 0px;
 	width:660px;
 	height: 200px;
+	margin-bottom: 5px;
 }
 
 th, td {
@@ -248,9 +279,9 @@ table th{
 	font-weight: 500;
 }
 
-.fdb{
+ .fdb{
 	float: right;
-	color: #707591;
+	color: #707591 !important;
 	font-style: italic;
 	font-size: 12px;
 }
@@ -274,6 +305,10 @@ table th{
 	border-width: 1px;
 }
 
+.question-box li{
+	padding-top: 8px;
+}
+
 .more-img{
 	float: right;
 }
@@ -282,32 +317,39 @@ table th{
 	padding:0px 0px 0px 10px;
 }
 
-/*
-.question-text{
-	margin:5px 0px 0px 0px;
-}
 
-*/
+.question-text{
+	margin-top: 10px;
+	font-size:14px;
+}
 
 .question-box{
 	position: relative;
 	padding-top: 0px;
-	font-size:14px;
 }
 
 .answer-buttons{
 	position: absolute;
 	margin-left: 5px;
-	bottom: -5%;
+	bottom: 0;
+}
+
+.question-time{
+	color: #70757A;
 }
 
 .question-time, .n-ans{
 	margin-left: 10px;
+	font-size: 12px;
 }
 
 .n-ans{
 	position: relative;
 	margin-top: 0px;
+}
+
+.n-ans a:hover{
+	text-decoration: underline;
 }
 
 .question-info li{
@@ -353,12 +395,14 @@ table th{
 	border-radius: 15px;
 	border-style: solid;
 	border-width: 1px;
+	margin-bottom: 5px;
 }
 
 .also-search-items li
 {
-	padding-left: 10px;
-	padding-bottom: 5px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
 }
 
 .also-search-thumb-list li{
